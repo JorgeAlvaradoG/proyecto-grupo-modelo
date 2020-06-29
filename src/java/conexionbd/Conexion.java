@@ -13,9 +13,9 @@ import java.sql.*;
  */
 public class Conexion {
     
-    public static String url = "jdbc:mysql://localhost/grupomodelo?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC";
-    public static String usuario = "root";
-    public static String contraseña = "sasa";
+    public static String url = "jdbc:mysql://us-cdbr-east-02.cleardb.com/heroku_5028194434a761c?reconnect=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    public static String usuario = "b97f7d2e231782";
+    public static String contraseña = "eb847aff";
     public static String clase = "com.mysql.cj.jdbc.Driver";
 
     public static Connection conectar() {
